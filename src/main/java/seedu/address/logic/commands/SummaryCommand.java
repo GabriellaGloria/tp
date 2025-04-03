@@ -7,6 +7,8 @@ import static seedu.address.logic.parser.CliSyntax.PREFIX_JOB_POSITION;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_NAME;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_PHONE;
 import static seedu.address.logic.parser.CliSyntax.PREFIX_STATUS;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_BEFORE;
+import static seedu.address.logic.parser.CliSyntax.PREFIX_AFTER;
 
 import java.util.List;
 import java.util.Map;
