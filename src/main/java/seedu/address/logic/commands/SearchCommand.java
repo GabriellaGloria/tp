@@ -37,8 +37,8 @@ public class SearchCommand extends Command {
             + "[" + PREFIX_PHONE + "PHONE] "
             + "[" + PREFIX_EMAIL + "EMAIL] "
             + "[" + PREFIX_JOB_POSITION + "JOB_POSITION] "
-            + "[" + PREFIX_STATUS + "STATUS]\n"
-            + "[" + PREFIX_BEFORE + "YYYY-MM-DD]\n"
+            + "[" + PREFIX_STATUS + "STATUS] "
+            + "[" + PREFIX_BEFORE + "YYYY-MM-DD] "
             + "[" + PREFIX_AFTER + "YYYY-MM-DD]\n"
             + "Example: " + COMMAND_WORD + " " + PREFIX_NAME + "John "
             + PREFIX_EMAIL + "alice@example.com";

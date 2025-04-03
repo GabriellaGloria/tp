@@ -313,7 +313,7 @@ export candidates.csv
 ### 📊 Summary Reports
 Get quick statistics:
 
-**Command Format**: `summary [n/NAME] [e/EMAIL] [j/JOB_POSITION] [s/STATUS]`
+**Command Format**: `summary [n/NAME] [e/EMAIL] [j/JOB_POSITION] [s/STATUS] [p/PHONE] [bfr/BEFORE] [aft/AFTER]`
 * Having no identifiers will summarize all applicants
 * The filter is case-insensitive. e.g. `hans` will match `Hans`
 * Only full words will be matched e.g. `Han` will not match `Hans`
@@ -381,11 +381,11 @@ Not yet, but we're working on theme options for a future update!
 | **List**    | `list`                                                                                                                                                                                                                                |
 | **Edit**    | `edit INDEX [n/NAME] [p/PHONE_NUMBER] [e/EMAIL] [a/ADDRESS] [t/TAG]…​`<br> e.g.,`edit 2 n/James Lee e/jameslee@example.com`                                                                                                           |
 | **Export**  | `export [FILE-NAME]`<br> e.g., `export applicantData.csv`                                                                                                                                                                             |
-| **Search**  | `search [n/NAME] [e/EMAIL] [j/JOB] [s/STATUS] [p/PHONE] [bfr/BEFORE] [aft/AFTER]`<br> e.g., `search n/James Jake`                                                                                                                                               |
+| **Search**  | `search [n/NAME] [e/EMAIL] [j/JOB_POSITION] [s/STATUS] [p/PHONE] [bfr/BEFORE] [aft/AFTER]`<br> e.g., `search n/James Jake`                                                                                                                                               |
 | **Delete**  | `delete IDENTIFIER_TYPE/CONTACT_IDENTIFIER [--force]`<br> e.g., `delete n/John Doe`<br> e.g., `delete id/3 --force`                                                                                                                   |
 | **Update**  | `update IDENTIFIER_TYPE/CONTACT_IDENTIFIER s/STATUS` <br> e.g., `update e/johndoe@example.com s/Pending Review`                                                                                                                       |
 | **Sort**    | `sort CRITERIA/`<br> e.g., `sort n/`                                                                                                                                                                                                  |
-| **Summary** | `summary [n/NAME] [e/EMAIL] [j/JOB_POSITION] [s/STATUS]`<br> e.g., `summary j/Frontend Engineer`                                                                                                                                      |
+| **Summary** | `summary [n/NAME] [e/EMAIL] [j/JOB_POSITION] [s/STATUS] [p/PHONE] [bfr/BEFORE] [aft/AFTER]`<br> e.g., `summary j/Frontend Engineer`                                                                                                                                      |
 | **Rate**    | `update IDENTIFIER_TYPE/CONTACT_IDENTIFIER r/RATING`<br> e.g., `rate n/Amy Lee r/5`                                                                                                                                                   |
 | **Clear**   | `clear`                                                                                                                                                                                                                               |
 | **Exit**    | `exit`                                                                                                                                                                                                                                |

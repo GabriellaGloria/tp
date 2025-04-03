@@ -34,7 +34,9 @@ public class SummaryCommand extends Command {
             + "[" + PREFIX_PHONE + "PHONE] "
             + "[" + PREFIX_EMAIL + "EMAIL] "
             + "[" + PREFIX_JOB_POSITION + "JOB_POSITION] "
-            + "[" + PREFIX_STATUS + "STATUS]\n"
+            + "[" + PREFIX_STATUS + "STATUS] "
+            + "[" + PREFIX_BEFORE + "YYYY-MM-DD] "
+            + "[" + PREFIX_AFTER + "YYYY-MM-DD]\n"
             + "Example: " + COMMAND_WORD + " " + PREFIX_JOB_POSITION + "Senior SWE";
 
     public static final String MESSAGE_SUCCESS = "Summarized %1$d / %2$d Applicants \n%3$s";
